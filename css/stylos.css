@@ -96,6 +96,10 @@ html {
   background: #ffd31f;
 }
 
+.btn-terciario:hover {
+  background: #8f6e3c;
+}
+
 .titulo-portada{
 	font-size: 30px;
 }
