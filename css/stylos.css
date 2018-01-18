@@ -101,7 +101,7 @@ html {
 }
 
 .titulo-portada{
-	font-size: 30px;
+	font-family: 'Kavivanar'!important;
 }
 
 .titulo-borde-izquierdo-1{
@@ -194,6 +194,14 @@ html {
 
 .padding-10 {
   padding: 10px!important;
+}
+
+.padding-sup-inf-20{
+  padding: 20px 0px!important;
+}
+
+.margin-sup-inf-20 {
+  margin: 20px 0px!important;
 }
 
 .borde-total-principal{
@@ -300,9 +308,9 @@ html {
 
 .portada-0 {
   background: url('../images/portadas/portada0.jpg');
-  background-position: center;
+  /*background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .portada-1{
@@ -329,8 +337,32 @@ html {
 	background-size: cover;
 }
 
-.portada-11 {
+.portada-4 {
+  background: url('../images/portadas/portada6.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-tumbas-reales {
+  background: url('../images/portadas/portada-museo-tumbas-reales.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-chan-chan {
   background: url('../images/portadas/portada11.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-11 {
+  background: url('../images/portadas/portada-chiclayo-info.jpg');
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -345,13 +377,7 @@ html {
   background-size: cover;
 }
 
-.portada-4{
-	background: url('../images/portadas/portada6.jpg');
 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .portada-5{
 	background: url('../images/portadas/portada4.jpg');
@@ -370,7 +396,8 @@ html {
 }
 
 .portada-principal-oscuro{
-	background: rgba(58, 58, 58, 0.3);
+  /*background: rgba(58, 58, 58, 0.3);*/
+  background: rgba(0, 0, 0, 0.3);
 	width: 100%;
 	height: 100%;
 }
@@ -381,8 +408,20 @@ html {
   height: 100%;
 }
 
+.portada-principal-oscuro-cambio-2 {
+  background: rgba(58, 58, 58, 0.1);
+  width: 100%;
+  height: 100%;
+}
+
 .portada-principal-oscuro-cambio:hover {
   background: rgba(143, 110, 60, 0.6);
+  width: 100%;
+  height: 100%;
+}
+
+.portada-principal-oscuro-cambio-2:hover {
+  background: rgba(0, 0, 0, 0.45);
   width: 100%;
   height: 100%;
 }
@@ -440,6 +479,14 @@ html {
   padding: 3px!important;
 }
 
+
+.tabla-corta thead tr th {
+  padding: 0px!important;
+}
+
+.tabla-corta tbody tr td {
+  padding: 0px!important;
+}
 
 /*ESTILOS ESPECIFICOS fin*/
 

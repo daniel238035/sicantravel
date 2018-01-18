@@ -63,7 +63,7 @@ $( document ).ready(function(){
 
 
     //SCROOL LENTO
-  // Select all links with hashes
+  /*Select all links with hashes
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
     .not('[href="#"]')
@@ -98,7 +98,7 @@ $( document ).ready(function(){
           });
         }
       }
-    });
+    });*/
 
     //MISMA ALTURA
     function equalHeight(group) {
@@ -115,6 +115,31 @@ $( document ).ready(function(){
     $(document).ready(function() {
     equalHeight($(".altura-igual-1"));
     });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-2"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-3"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-4"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-row"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-titulo"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-contenido"));
+    });
+
 
 
     //Swiper efects

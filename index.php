@@ -17,104 +17,134 @@
     <link rel="stylesheet" href="css/swiper.min.css">
     <!--FONTS IMPORTADOS-->
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Poppins|Reem+Kufi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 
 </head>
 
 <body class="portada-0 " style="height: -webkit-fill-available!important; ">
 
     <header>
-        <div class="row  flex-row">
-            <div class="col s12 l5  ">
-                <div class="row flex-row">
-                    <div class="col l3 offset-l3 bg-secundario">
-                        <img class="responsive-img" src="images/logo2.png" alt="" >
-                    </div>
-                    <div class="col l3 ">
-                        
+        <div class="menu_sobrepuesto">
+            <div class="row  flex-row">
+                <div class="col s12 l6  ">
+                    <div class="row flex-row">
+                        <div class="col l4 offset-l3 ">
+                            <a href="index.php">
+                                <img class="responsive-img" src="images/logo2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col l3 ">
+    
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 l7  menu_principal">
-                <ul class="row">
-                    <li class=""><h6 class="white-text">Contáctanos</h6></li>
-                    <li class=""><h6 class="white-text">Nosotros</h6></li>
-                    <li class=""><h6 class="white-text">Redes Sociales</h6></li>
-                </ul>
-                
-                
+                <div class="col s12 l6  menu_principal">
+                    <ul class="row">
+                        <li class="">
+                            <h6 class="white-text">Nosotros</h6>
+                        </li>
+                        <li class="">
+                            <h6 class="white-text">Contáctanos</h6>
+                        </li>
+                        <li class="">
+                            <span class="white-text icon-facebook2"></span>
+                        </li>
+                        <li>
+                            <span class="white-text icon-instagram"></span>
+                        </li>
+                    </ul>
+    
+    
+                </div>
             </div>
         </div>
     </header>
 
     <div class="cuerpo ">
-        <div class="row">
-            <div class="col s4" style="padding:40px 20px;">
-                <div class="row portada-1 ">
-                    <div class="col s12 portada-principal-oscuro-cambio flex-row">
-                        <div class="row flex-row-end ">
-                            <div class="col s12 ">
-                                <h1 class="white-text ">01</h1>
-                            </div>
-                            <div class="col s12">
-                                <a href="welcomeperu.php"><h4 class="white-text borde-inferior">Welcome to Peru</h4></a>
-                            </div>
-                            <div class="col s12">
-                                <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt error, nisi tempora fugiat vel inventore rerum obcaecati voluptatum molestias aut in maxime, perspiciatis corporis delectus vitae!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col s4" style="padding:40px 20px;">
-                <div class="row portada-2 ">
-                    <div class="col s12 portada-principal-oscuro-cambio flex-row">
-                        <div class="row flex-row-end ">
-                            <div class="col s12">
-                                <h1 class="white-text">02</h1>
-                            </div>
-                            <div class="col s12">
-                                <h4 class="white-text borde-inferior">Business Travel</h4>
-                            </div>
-                            <div class="col s12">
-                                <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt error, nisi
-                                    tempora fugiat vel inventore rerum obcaecati voluptatum molestias aut in maxime, perspiciatis corporis delectus
-                                    vitae!</p>
+        <div class="row" style="padding-top:100px;">
+            <a href="welcomeperu.php">
+                <div class="col s4" style="padding:40px 20px;">
+                    <div class="row portada-1 ">
+                        <div class="col s12 portada-principal-oscuro-cambio flex-row">
+                            <div class="row flex-row-end ">
+                                <div class="col s12 ">
+                                    <h1 class="white-text ">01</h1>
+                                </div>
+                                <div class="col s12">
+                                    <h3 class="white-text text-negrita borde-inferior">Welcome to Chiclayo</h3>
+                                </div>
+                                <div class="col s12">
+                                    <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt
+                                        error, nisi tempora fugiat vel inventore rerum obcaecati voluptatum molestias aut in maxime, perspiciatis
+                                        corporis delectus vitae!</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s4" style="padding:40px 20px;">
-                <div class="row portada-3 ">
-                    <div class="col s12 portada-principal-oscuro-cambio flex-row">
-                        <div class="row flex-row-end ">
-                            <div class="col s12">
-                                <h1 class="white-text ">03</h1>
-                            </div>
-                            <div class="col s12">
-                                <h4 class="white-text borde-inferior">Tus Vacaciones</h4>
-                            </div>
-                            <div class="col s12">
-                                <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt error, nisi
-                                    tempora fugiat vel inventore rerum obcaecati voluptatum molestias aut in maxime, perspiciatis corporis delectus
-                                    vitae!
-                                </p>
+            </a>
+            
+            <a href="welcomeperu.php">
+                <div class="col s4" style="padding:40px 20px;">
+                    <div class="row portada-2 ">
+                        <div class="col s12 portada-principal-oscuro-cambio flex-row">
+                            <div class="row flex-row-end ">
+                                <div class="col s12">
+                                    <h1 class="white-text">02</h1>
+                                </div>
+                                <div class="col s12">
+                                    <h3 class="white-text text-negrita borde-inferior">Conoce <br>el Perú</h3>
+                                </div>
+                                <div class="col s12">
+                                    <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt
+                                        error, nisi tempora fugiat vel inventore rerum obcaecati voluptatum molestias aut in maxime, perspiciatis
+                                        corporis delectus vitae!
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
+
+            <a href="welcomeperu.php">
+                <div class="col s4" style="padding:40px 20px;">
+                    <div class="row portada-3 ">
+                        <div class="col s12 portada-principal-oscuro-cambio flex-row">
+                            <div class="row flex-row-end ">
+                                <div class="col s12">
+                                    <h1 class="white-text ">03</h1>
+                                </div>
+                                <div class="col s12">
+                                    <h3 class="white-text text-negrita borde-inferior">Viaja por <br>el Mundo</h3>
+                                </div>
+                                <div class="col s12">
+                                    <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt
+                                        error, nisi tempora fugiat vel inventore rerum obcaecati voluptatum molestias aut in maxime, perspiciatis
+                                        corporis delectus vitae!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            
+            
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col l4 flex-row">
-                    <h6 class="white-text">Dirección</h6>
-                </div>
-                <div class="col l4 flex-row">
-                    <h6 class="white-text">Teléfono</h6>
-                </div>
-                <div class="col l4 flex-row">
-                    <h6 class="white-text">Correo Electrónico</h6>
+
+        <div class="bg-secundario">
+            <div class="container">
+                <div class="row">
+                    <div class="col l4 flex-row">
+                        <h6 class="white-text">Calle 8 de octubre #265 Lambayeque</h6>
+                    </div>
+                    <div class="col l4 flex-row">
+                        <h6 class="white-text">0051-74-420737 / RPM. #994777030</h6>
+                    </div>
+                    <div class="col l4 flex-row">
+                        <h6 class="white-text">sicantravelperu@gmail.com</h6>
+                    </div>
                 </div>
             </div>
         </div>
