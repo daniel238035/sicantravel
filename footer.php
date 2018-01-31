@@ -35,6 +35,13 @@
 
     <!--Import Swiper JV -->
     <script src="js/swiper.min.js"></script>
+    
+    <script>
+      function load() {
+        $('#page-loader').fadeOut(500);
+      }
+      window.onload = load;
+    </script>
 
 </body>
 

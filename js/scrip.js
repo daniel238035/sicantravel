@@ -1,3 +1,5 @@
+
+
 $( document ).ready(function(){
   $(".loading").hide();
   $(".button-collapse").sideNav();
@@ -139,36 +141,110 @@ $( document ).ready(function(){
     $(document).ready(function () {
       equalHeight($(".altura-igual-contenido"));
     });
+    
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-contenido-1"));
+    });
 
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-contenido-2"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-contenido-3"));
+    });
+
+    $(document).ready(function () {
+      equalHeight($(".altura-igual-publicidad-1"));
+    });
+    
 
 
     //Swiper efects
-    var menuButton = document.querySelector('.menu-button');
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 'auto',
-      initialSlide: 1,
-      resistanceRatio: 0,
-      slideToClickedSlide: true,
-      on: {
-        init: function () {
-          var slider = this;
-          menuButton.addEventListener('click', function () {
-            if (slider.activeIndex === 0) {
-              slider.slideNext();
-            } else {
-              slider.slidePrev();
-            }
-          }, true);
+    var swiper1 = new Swiper('.swp1', {
+      slidesPerView: 3,
+      breakpoints: {
+        // when window width is <= 320px
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 10
         },
-        slideChange: function () {
-          var slider = this;
-          if (slider.activeIndex === 0) {
-            menuButton.classList.add('cross');
-          } else {
-            menuButton.classList.remove('cross');
-          }
+        // when window width is <= 480px
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 20
         },
-      }
+        // when window width is <= 640px
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        }
+      },
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      loop: true,
+      autoplay: {
+        delay: 3500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
     });
+
+    var swiper2 = new Swiper('.swp-img-paquete', {
+      spaceBetween: 30,
+      effect: 'fade',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+
+    /* PARA MOSTRAR Y OCULTAR */
+    $(document).ready(function () {
+      $("#mostrar-hotel").on("click", function () {
+        $('#publicidad-hotel').show(); //muestro mediante id
+      });
+      $("#ocultar-hotel").on("click", function () {
+        $('#publicidad-hotel').hide(); //oculto mediante id
+      });
+    });
+
+    $(document).ready(function () {
+      $("#mostrar-restaurante").on("click", function () {
+        $('#publicidad-restaurante').show(); //muestro mediante id
+      });
+      $("#ocultar-restaurante").on("click", function () {
+        $('#publicidad-restaurante').hide(); //oculto mediante id
+      });
+    });
+
+    $(document).ready(function () {
+      $('.zoom').hover(function () {
+        $(this).addClass('transition');
+      }, function () {
+        $(this).removeClass('transition');
+      });
+    });
+
+    
+
+    
+    
+
 
 })

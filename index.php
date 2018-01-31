@@ -19,9 +19,17 @@
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Poppins|Reem+Kufi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
 
+    
+
+
 </head>
 
+
 <body class="portada-0 " style="height: -webkit-fill-available!important; ">
+
+    
+
+    <div id="page-loader"><span class="preloader-interior"></span></div>
 
     <header>
         <div class="menu_sobrepuesto">
@@ -84,7 +92,7 @@
                 </div>
             </a>
             
-            <a href="welcomeperu.php">
+            <a href="conoceperu.php">
                 <div class="col s4" style="padding:40px 20px;">
                     <div class="row portada-2 ">
                         <div class="col s12 portada-principal-oscuro-cambio flex-row">
@@ -93,7 +101,7 @@
                                     <h1 class="white-text">02</h1>
                                 </div>
                                 <div class="col s12">
-                                    <h3 class="white-text text-negrita borde-inferior">Conoce <br>el Perú</h3>
+                                    <h3 class="white-text text-negrita borde-inferior">Conoce el <br> Perú Primero</h3>
                                 </div>
                                 <div class="col s12">
                                     <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt
@@ -116,7 +124,7 @@
                                     <h1 class="white-text ">03</h1>
                                 </div>
                                 <div class="col s12">
-                                    <h3 class="white-text text-negrita borde-inferior">Viaja por <br>el Mundo</h3>
+                                    <h3 class="white-text text-negrita borde-inferior">Viaja por el Mundo <br>  con Sican Travel</h3>
                                 </div>
                                 <div class="col s12">
                                     <p class="white-text text-justificado">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique debitis excepturi incidunt
@@ -152,12 +160,33 @@
 
 
     <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="js/scrip.js"></script>
 
     <!--Import Swiper JV -->
     <script src="js/swiper.min.js"></script>
+
+
+    <!-- If you use jQuery -->
+    <script type="text/javascript" src="js/loadgo.js"></script>
+
+    <!-- If you don't use jQuery -->
+    <script type="text/javascript" src="js/loadgo-nojquery.js"></script>
+
+    <script>
+        function load() {
+        $('#page-loader').fadeOut(500);
+      }
+      window.onload = load;
+
+        // jQuery
+        $('#logo').loadgo();
+
+        // Javascript
+        Loadgo.init(document.getElementById('logo'));
+    </script>
+    
 
 </body>
 

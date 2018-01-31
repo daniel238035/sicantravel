@@ -14,7 +14,9 @@
     <!--Import stylos.css-->
     <link type="text/css" rel="stylesheet" href="css/stylos.css" media="screen,projection" />
     <!--Import Swiper -->
-    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <!--Import imageHover -->
+    <link rel="stylesheet" href="css/imagehover.min.css">
     <!--FONTS IMPORTADOS-->
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Poppins|Reem+Kufi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
@@ -22,7 +24,7 @@
 </head>
 
 <body>
-
+    <div id="page-loader"><span class="preloader-interior"></span></div>
     <header >
         <div class="menu_sobrepuesto">
             <div class="row  flex-row">

@@ -2,29 +2,253 @@
 
     <div class="cuerpo ">
         <!--PORTADA-->
-        <div class="portada-1">
-            <div class="portada-principal-oscuro">
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/portadas/portada-caballos-totora.jpg">
+        
+            </div>
+            <div class="portada-principal-oscuro" style="padding:20px 30px;">
                 <div class="container  height-100">
                     <div class="row  height-100 flex-col-end" style="padding-top:100px;">
                         <div class="col s12 flex-row ">
                             <a href="welcomeperu.php">
-                                <h2 class="white-text text-negrita">Welcome to
+                                <h2 class="white-text text-negrita">Welcome to 
                                     <span class="color-primario text-negrita">Chiclayo</span>
                                 </h2>
                             </a>
                         </div>
                         <div class="col s12 flex-row ">
-                            <h5 class="white-text"> <i class="material-icons">terrain</i> ATRACTIVOS - <i class="material-icons">map</i> TOUR - <i class="material-icons">local_play</i> INFORMACIÓN</h5>
+                            <h5 class="white-text">
+                                <i class="material-icons">terrain</i> ATRACTIVOS -
+                                <i class="material-icons">map</i> TOUR -
+                                <i class="material-icons">local_play</i> INFORMACIÓN</h5>
                         </div>
                         <div class="col s12 flex-row " style="padding-top:50px;">
-                            <h5 class="white-text">Tierra del Señor de Sipán y la Cultura Sicán</h5>
+                            <h5 class="white-text">Tierra de cultura y maravillas</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+
         <!--CONTENIDO-->
+
+        <!-- SECCION PAQUETES TURISTICO -->
+        <div class="bg-fondo-oscuro">
+            <div class="container seccion">
+                <div class="row" style="margin:20px 0px!important;">
+                    <div class="col s12 center-align">
+                        <h2 class="black-text text-negrita">ENCUENTRA TU MEJOR   
+                            <span class="color-primario">MEJOR</span> RUTA</h2>
+                        <h5>Elige nuestros paquetes Turísticos</h5>
+                    </div>
+
+
+                    <!--SWIPER 1 -->
+                    <div class="col s12">
+                        <div class="swiper-container swp1">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="singlepaquete.php">
+                                        <div class="col s12  margin-sup-inf-20">
+                                            <div class="row white portada-1">
+                                                <div class="portada-principal-oscuro-cambio-2 flex-row">
+                                                    
+                                                    <div class="row">
+                                                        <div class="col s12">
+                                                            <h5 class=""><span class="bg-primario white-text padding-10"> <i class="material-icons">local_offer</i> OFERTA</span></h5>
+                                                        </div>
+                                                        <div class="col s12 flex-row">
+                                                            <h4 class="white-text titulo-portada altura-igual-1">Circuito Turístico de Playas</h4>
+                                                        </div>
+                                                        <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
+                                                        <div class="col s12 text-align">
+                                                            <h5 class="white-text center-align"> 03 DIAS / 02 NOCHES</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="singlepaquete.php">
+                                        <div class="col s12 margin-sup-inf-20">
+                                            <div class="row white portada-tumbas-reales">
+                                                <div class="portada-principal-oscuro-cambio-2 flex-row">
+                                                    <div class="row">
+                                                        <div class="col s12 flex-row">
+                                                            <h4 class="white-text titulo-portada altura-igual-1">Descubriendo a los Moches… una cultura viva</h4>
+                                                        </div>
+                                                        <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
+                                                        <div class="col s12 text-align">
+                                                            <h5 class="white-text center-align"> 03 DIAS / 02 NOCHES</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="singlepaquete-2.php">
+                                        <div class="col s12 margin-sup-inf-20">
+                                            <div class="row white portada-chan-chan">
+                                                <div class="portada-principal-oscuro-cambio-2 flex-row">
+                                                    <div class="row">
+                                                        <div class="col s12 flex-row">
+                                                            <h4 class="white-text titulo-portada altura-igual-1">Descubriendo la ruta Moche</h4>
+                                                        </div>
+                                                        <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
+                                                        <div class="col s12 text-align">
+                                                            <h5 class="white-text center-align">04 DIAS / 03 NOCHES</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="singlepaquete-3.php">
+                                        <div class="col s12 margin-sup-inf-20">
+                                            <div class="row white portada-4">
+                                                <div class="portada-principal-oscuro-cambio-2 flex-row">
+                                                    <div class="row">
+                                                        <div class="col s12 flex-row">
+                                                            <h4 class="white-text titulo-portada altura-igual-1">Puerta de entrada al Maravilloso Circuito Moche</h4>
+                                                        </div>
+                                                        <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
+                                                        <div class="col s12 text-align">
+                                                            <h5 class="white-text center-align">05 DIAS / 04 NOCHES</h5>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination" style="bottom: 1px;"></div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 center-align">
+                        <a class="black-text" href="lista-paquetes.php " target="_black">
+                            <h5 class="text-negrita flex-row">Ver más Paquetes
+                                <i class="material-icons">arrow_forward</i>
+                            </h5>
+                        </a>
+                    </div>
+
+        
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!--SECCION INFORMACION CHICLAYO-->
+        <div class="parallax-container" style="height:400px;">
+            <div class="parallax">
+                <img src="images/portadas/portada-chaparri-1.jpg">
+        
+            </div>
+            <div class="portada-principal-oscuro" style="padding:20px 30px;">
+                <div class="row borde-total-principal height-100">
+                    <div class="col s12 l4" style="padding:30px;">
+                        <h2 class="white-text">CHICLAYO
+                            <br>
+                            <span class="color-terciario text-negrita">Cuidad de la Amistad</span>
+                        </h2>
+                    </div>
+                    <div class="col s12 l6 offset-l1" style="padding:30px 50px;">
+                        <p class="parrafo-mediano white-text text-justificado">
+                            Chiclayo es una de las más importantes y grandes cuidades del Perú, centro comercial, eje económico y turísticos del Norte.
+                            Plataforma de entrada y salida a las principales capitales como: Trujillo, Cajamarca, Chachapoyas, Moyobamba,
+                            Tarapoto y las playas del norte de Piura y Tumbes. Al arribar a Chiclayo, capital de la región Lambayeque
+                            el viajero apreciará que su clima cálido resalta tanto como la calidez y hospitalidad de su gente; de allí
+                            el título de "Capital de la Amistad".
+                        </p>
+                        <p class="parrafo-mediano white-text text-justificado">
+                            Fundación Política: Fue creada como provincia el 18 de abril de 1835 por el Cmel. Felipe Santiago Salaverry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SECCION PUBLICIDAD HOTELES -->
+        <div class="white hide "  >
+            
+            <div class="row bg-primario flex-row">
+                <div class="col s10">
+                    <h5 class="white-text bg-primario padding-10"> <i class="material-icons">hotel</i> Hoteles Recomendados</h5>
+                </div>
+                <div class="col s2 flex-row">
+                    <a class="btn btn-flat white-text" type="button" id="mostrar-hotel" name="boton1"><i class="material-icons" >expand_more</i></a>
+                    <a class="btn btn-flat white-text" type="button" id="ocultar-hotel" name="boton1"><i class="material-icons" >expand_less</i></a>
+                </div>
+            </div>
+            <div class="row   white" id="publicidad-hotel">
+                <div class="col s6 l3 padding-20 ">
+                    <a href="#" >
+                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/casaandina.jpg" alt="" >
+                    </a>
+                </div>
+                <div class="col s6 l3 padding-20 portada-principal-oscuro-cambio-2 ">
+                    <a href="#">
+                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/winmeierhotellogo.jpg" alt="" >
+                    </a>        
+                </div>
+                <div class="col s6 l3 padding-20 portada-principal-oscuro-cambio-2 ">
+                    <a href="#">
+                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/costadelsol.jpg" alt="" >
+                    </a>        
+                </div>
+                <div class="col s6 l3 padding-20 portada-principal-oscuro-cambio-2 ">
+                    <a href="#">
+                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/sunec.png" alt="" >
+                    </a>        
+                </div>
+            </div>
+        </div>
+
+        <!--SECCION PUBLICIDAD HOTELES -->
+        <div class="white "  >
+            
+            <div class="row bg-primario flex-row">
+                <div class="col s10">
+                    <h5 class="white-text bg-primario padding-10"> <i class="material-icons">hotel</i> Hoteles Recomendados</h5>
+                </div>
+                <div class="col s2 flex-row">
+                    <a class="btn btn-flat white-text" type="button" id="mostrar-hotel" name="boton1"><i class="material-icons" >expand_more</i></a>
+                    <a class="btn btn-flat white-text" type="button" id="ocultar-hotel" name="boton1"><i class="material-icons" >expand_less</i></a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row   white" id="publicidad-hotel">
+                    <div class="col s6 l4 padding-10 ">
+                        <a href="#" >
+                            <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/casaandina.jpg" alt="" >
+                        </a>
+                    </div>
+                    <div class="col s6 l4 padding-10  ">
+                        <a href="#">
+                            <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/winmeierhotellogo.jpg" alt="" >
+                        </a>        
+                    </div>
+                    <div class="col s6 l4 padding-10  ">
+                        <a href="#">
+                            <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/costadelsol.jpg" alt="" >
+                        </a>        
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--SECCION ATRACTIVOS TURISTICOS -->
         <div class="bg-fondo-oscuro">
@@ -225,118 +449,7 @@
 
             </div>
         </div>
-
-        <!--SECCION INFORMACION CHICLAYO-->
-        <div class="parallax-container" style="height:400px;">
-            <div class="parallax">
-                <img src="images/portadas/portada-chiclayo-info.jpg">
         
-            </div>
-            <div class="portada-principal-oscuro" style="padding:20px 30px;">
-                <div class="row borde-total-principal height-100">
-                    <div class="col s4" style="padding:30px;">
-                        <h2 class="white-text">CHICLAYO
-                            <br>
-                            <span class="color-terciario text-negrita">Cuidad de la Amistad</span>
-                        </h2>
-                    </div>
-                    <div class="col s6 offset-s1" style="padding:30px 50px;">
-                        <p class="parrafo-mediano white-text text-justificado">
-                            Chiclayo es una de las más importantes y grandes cuidades del Perú, centro comercial, eje económico y turísticos del Norte.
-                            Plataforma de entrada y salida a las principales capitales como: Trujillo, Cajamarca, Chachapoyas, Moyobamba,
-                            Tarapoto y las playas del norte de Piura y Tumbes. Al arribar a Chiclayo, capital de la región Lambayeque
-                            el viajero apreciará que su clima cálido resalta tanto como la calidez y hospitalidad de su gente; de allí
-                            el título de "Capital de la Amistad".
-                        </p>
-                        <p class="parrafo-mediano white-text text-justificado">
-                            Fundación Política: Fue creada como provincia el 18 de abril de 1835 por el Cmel. Felipe Santiago Salaverry.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- SECCION PAQUETES TURISTICO -->
-        <div class="bg-fondo-oscuro">
-            <div class="container seccion">
-                <div class="row" style="margin:20px 0px!important;">
-                    <div class="col s12 center-align">
-                        <h2 class="black-text text-negrita">ENCUENTRE SU  
-                            <span class="color-primario">MEJOR</span> RUTA</h2>
-                        <h5>Elige nuestros paquetes Turísticos</h5>
-                    </div>
-
-                    <div class="col s12">
-                        <div class="row padding-sup-inf-20">
-                        
-                            <a href="singlepaquete.php">
-                                <div class="col s12 l4 margin-sup-inf-20">
-                                    <div class="row white portada-tumbas-reales">
-                                        <div class="portada-principal-oscuro-cambio-2 flex-row">
-                                            <div class="row">
-                                                <div class="col s12 flex-row">
-                                                    <h4 class="white-text titulo-portada altura-igual-1">Descubriendo a los Moches… una cultura viva</h4>
-                                                </div>
-                                                <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
-                                                <div class="col s12 text-align">
-                                                    <h5 class="white-text center-align"> 03 DIAS / 02 NOCHES</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        
-                            <a href="#">
-                                <div class="col s12 l4 margin-sup-inf-20">
-                                    <div class="row white portada-chan-chan">
-                                        <div class="portada-principal-oscuro-cambio-2 flex-row">
-                                            <div class="row">
-                                                <div class="col s12 flex-row">
-                                                    <h4 class="white-text titulo-portada altura-igual-1">Descubriendo la ruta Moche</h4>
-                                                </div>
-                                                <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
-                                                <div class="col s12 text-align">
-                                                    <h5 class="white-text center-align">04 DIAS / 03 NOCHES</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        
-                            <a href="#">
-                                <div class="col s12 l4 margin-sup-inf-20">
-                                    <div class="row white portada-4">
-                                        <div class="portada-principal-oscuro-cambio-2 flex-row">
-                                            <div class="row">
-                                                <div class="col s12 flex-row">
-                                                    <h4 class="white-text titulo-portada altura-igual-1">Puerta de entrada al Maravilloso Circuito Moche</h4>
-                                                </div>
-                                                <div class="col s4 offset-s4 bg-terciario" style="height:3px;"></div>
-                                                <div class="col s12 text-align">
-                                                    <h5 class="white-text center-align">05 DIAS / 04 NOCHES</h5>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col s12 center-align">
-                        <a class="black-text" href="lista-paquetes.php " target="_black">
-                            <h5 class="text-negrita flex-row">Ver más Paquetes
-                                <i class="material-icons">arrow_forward</i>
-                            </h5>
-                        </a>
-                    </div>
-
-        
-                </div>
-            </div>
-        </div>
 
         <!--SECCION GASTRONOMIA -->
         <div class="parallax-container" style="height:400px;">
@@ -346,13 +459,13 @@
             </div>
             <div class="portada-principal-oscuro" style="padding:20px 30px;">
                 <div class="row borde-total-principal height-100">
-                    <div class="col s4" style="padding:30px;">
+                    <div class="col l4" style="padding:30px;">
                         <h2 class="white-text">CHICLAYO
                             <br>
                             <span class="color-terciario text-negrita">Gastronomía</span>
                         </h2>
                     </div>
-                    <div class="col s6 offset-s1" style="padding:30px 50px;">
+                    <div class="col l6 offset-l1" style="padding:30px 50px;">
                         <div class="row">
                             <p class="col s12 parrafo-mediano white-text text-justificado">
                                 La comida peruana está conciderada entre las cuatro mejores del mundo junto con la francea, italiana y china; por su inconfundible
@@ -360,13 +473,52 @@
                                 expertas cuya tradición se va heredando de generación en generación.
                             </p>
                             <div class="col s12 ">
-                                <h5 class="text-negrita white-text ">Conoce más
-                                    <i class="material-icons">arrow_forward</i>
-                                </h5>
+                                <a href="gastronomia-chiclayo.php">
+                                    <h5 class="text-negrita white-text ">Conoce más
+                                        <i class="material-icons">arrow_forward</i>
+                                    </h5>
+                                </a>
                             </div>
                         </div>
                     </div>
                     
+                </div>
+            </div>
+        </div>
+
+        <!--SECCION PUBLICIDAD RESTAURANTE -->
+        <div class="white">
+
+            <div class="row bg-primario flex-row">
+                <div class="col s10">
+                    <h5 class="white-text bg-primario padding-10">
+                        <i class="material-icons" >local_dining</i> Restaurantes Recomendados
+                    </h5>
+                    
+                </div>
+
+                <div class="col s2 flex-row">
+                    <a class="btn btn-flat white-text" type="button" id="mostrar-restaurante" name="boton1"><i class="material-icons" >expand_more</i></a>
+                    <a class="btn btn-flat white-text" type="button" id="ocultar-restaurante" name="boton1"><i class="material-icons" >expand_less</i></a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row " id="publicidad-restaurante">
+                    <div class="col s6 l4 padding-10">
+                        <a href="#">
+                            <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/hebron.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col s6 l4 padding-10">
+                        <a href="#">
+                            <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/marakos.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col s6 l4 padding-10">
+                        <a href="#">
+                            <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/pirkas.jpg" alt="">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -508,8 +660,76 @@
                                 <h5 class="text-negrita color-primario altura-igual-3">Principales Hoteles y Restaurantes</h5>
                             </div>
                             <div class="col s12">
-                                <p class="text-justificado color-oscuro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vero inventore eum harum debitis in necessitatibus
-                                    expedita nobis illum dolorum, sit amet repudiandae atque! Quis rem deleniti accusantium blanditiis enim.</p>
+                                <h6 class="color-secundario text-negrita">Hoteles</h6>
+                                <div>
+                                    <table class="responsive-table color-oscuro tabla-corta">
+                                        <thead>
+                                            <tr>
+                                                <th>Principales</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Casa Andina Selec Chiclayo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>WinMeier</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sunec</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Costa del Sol</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Inti</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Los Portales Chiclayo</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mochicks</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="col s12">
+                                <h6 class="color-secundario text-negrita">Restaurantes</h6>
+                                <div>
+                                    <table class="responsive-table color-oscuro tabla-corta">
+                                        <thead>
+                                            <tr>
+                                                <th>Principales</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr>
+                                                <td>Hebron</td>
+                                            </tr>
+                                            <tr>
+                                                <td>La Parra</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Chifa Luna Llena</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pardos Chicken</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Marakos</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tostao Cafe</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pizeria Venecia</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         
                         </div>

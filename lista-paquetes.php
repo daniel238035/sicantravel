@@ -2,32 +2,34 @@
 
 <div class="cuerpo">
     <!--PORTADA-->
-    <div class="portada-1">
-        <div class="portada-principal-oscuro">
-            <div class="container  height-100">
-                <div class="row  height-100 flex-col-end" style="padding-top:100px;">
-                    <div class="col s12 flex-row ">
-                        <a href="welcomeperu.php" >
-                            <h2 class="white-text text-negrita">Welcome to
-                                <span class="color-primario text-negrita">Chiclayo</span>
-                            </h2>
-                        </a>
-                    </div>
-                    <div class="col s12 flex-row ">
-                        <h5 class="white-text">
-                            <i class="material-icons">terrain</i> ATRACTIVOS -
-                            <span class="text-negrita color-terciario">
-                                <i class="material-icons">map</i> TOUR </span>
-                            -
-                            <i class="material-icons">local_play</i> INFORMACIÓN</h5>
-                    </div>
-                    <div class="col s12 flex-row " style="padding-top:50px;">
-                        <h5 class="white-text">Tierra del Señor de Sipán y la Cultura Sicán</h5>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/portadas/portada-caballos-totora.jpg">
+        
+            </div>
+            <div class="portada-principal-oscuro" style="padding:20px 30px;">
+                <div class="container  height-100">
+                    <div class="row  height-100 flex-col-end" style="padding-top:100px;">
+                        <div class="col s12 flex-row ">
+                            <a href="welcomeperu.php">
+                                <h2 class="white-text text-negrita">Welcome to 
+                                    <span class="color-primario text-negrita">Chiclayo</span>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="col s12 flex-row ">
+                            <h5 class="white-text">
+                                <i class="material-icons">terrain</i> ATRACTIVOS -
+                                <i class="material-icons">map</i> TOUR -
+                                <i class="material-icons">local_play</i> INFORMACIÓN</h5>
+                        </div>
+                        <div class="col s12 flex-row " style="padding-top:50px;">
+                            <h5 class="white-text">Tierra de cultura y maravillas</h5>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     
     <!--CONTENIDO-->
     <!-- SECCION PAQUETES TURISTICO -->

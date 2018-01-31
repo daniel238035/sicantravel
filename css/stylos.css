@@ -8,11 +8,13 @@ html {
 }
 
 .bg-primario{
-	background: #8d3133;
+	/*background: #8d3133;*/
+  background: #a72e31;
 }
 
 .bg-secundario{
-	background: #8f6e3c;
+  /*background: #a77e41;*/
+  background: #a77e41;
 }
 
 .bg-terciario{
@@ -28,6 +30,11 @@ html {
   background: #F1F4F5
 }
 
+.bg-fondo-oscuro-2 {
+  /*background: #F8F8F8;*/
+  background: #f3f1f0
+}
+
 .btn-menu a{
 	text-decoration: none;
 	font-size: 16px;
@@ -37,7 +44,7 @@ html {
 .btn-menu a:hover{
 	text-decoration: none;
 	font-size: 18px;
-	color: #8f6e3c!important;
+	color: #a77e41!important;
 }
 
 .text-negrita{
@@ -49,15 +56,15 @@ html {
 }
 
 .borde-inferior{
-  border-bottom: 6px solid #8d3133;
+  border-bottom: 6px solid #a72e31;
 }
 
 .color-primario{
-	color: #8d3133;
+	color: #a72e31;
 }
 
 .color-secundario{
-	color: #8f6e3c;
+	color: #a77e41;
 }
 
 .color-terciario {
@@ -85,11 +92,11 @@ html {
 }
 
 .btn-principal{
-	background: #8d3133;
+	background: #a72e31;
 }
 
 .btn-secundario {
-  background: #8f6e3c;
+  background: #a77e41;
 }
 
 .btn-terciario {
@@ -97,7 +104,7 @@ html {
 }
 
 .btn-terciario:hover {
-  background: #8f6e3c;
+  background: #a77e41;
 }
 
 .titulo-portada{
@@ -105,12 +112,12 @@ html {
 }
 
 .titulo-borde-izquierdo-1{
-	border-left: 7px solid #8d3133;
+	border-left: 7px solid #a72e31;
 	padding-left: 5px;
 }
 
 .titulo-borde-izquierdo-2{
-	border-left: 3px solid #8d3133;
+	border-left: 3px solid #a72e31;
 	padding-left: 3px;
 }
 
@@ -188,12 +195,20 @@ html {
 	padding: 8px!important;
 }
 
+.margin-0{
+  margin: 0px!important;
+}
+
 .padding-0{
   padding: 0px!important;
 }
 
 .padding-10 {
   padding: 10px!important;
+}
+
+.padding-20 {
+  padding: 20px!important;
 }
 
 .padding-sup-inf-20{
@@ -205,9 +220,12 @@ html {
 }
 
 .borde-total-principal{
-  border: 5px solid #8d3133;
+  border: 5px solid #a72e31;
 }
 
+.borde-total-inferior {
+  border-bottom: 5px solid #a72e31;
+}
 /*ESTILOS GENERALES fin*/
 
 /*ESTILOS ESPECIFICOS inicio*/
@@ -256,7 +274,7 @@ html {
 .btn-sec-1 {
   width: 100%;
   height: 60px;
-  background-color: #8d3133;
+  background-color: #a72e31;
   /*position: absolute;*/
   left: 0%;
   top: 0%;
@@ -345,6 +363,14 @@ html {
   background-size: cover;
 }
 
+.portada-5 {
+  background: url('../images/portadas/portada4.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .portada-tumbas-reales {
   background: url('../images/portadas/portada-museo-tumbas-reales.jpg');
   height: 530px;
@@ -361,6 +387,118 @@ html {
   background-size: cover;
 }
 
+.portada-arequipa {
+  background: url('../images/portadas/portada-arequipa.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-arequipa-2 {
+  background: url('../images/portadas/portada-arequipa-2.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-iquitos {
+  background: url('../images/portadas/portada-iquitos.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-lima {
+  background: url('../images/portadas/portada-lima.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-tarapoto {
+  background: url('../images/portadas/portada-tarapoto.jpeg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-tumbes {
+  background: url('../images/portadas/portada-tumbes.jpeg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-piura {
+  background: url('../images/portadas/portada-piura.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-trujillo {
+  background: url('../images/portadas/portada-trujillo.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-ica {
+  background: url('../images/portadas/portada-ica.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-cajamarca {
+  background: url('../images/portadas/portada-cajamarca.jpeg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-tacna {
+  background: url('../images/portadas/portada-tacna.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-puno {
+  background: url('../images/portadas/portada-puno.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-cusco {
+  background: url('../images/portadas/portada-cusco.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-puerto-maldonado {
+  background: url('../images/portadas/portada-puerto-maldonado.jpg');
+  height: 530px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .portada-11 {
   background: url('../images/portadas/portada-chiclayo-info.jpg');
   height: 400px;
@@ -371,7 +509,7 @@ html {
 
 .portada-12 {
   background: url('../images/portadas/portada12.jpg');
-  height: 500px;
+  height: 530px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -379,13 +517,7 @@ html {
 
 
 
-.portada-5{
-	background: url('../images/portadas/portada4.jpg');
 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .portada-form{
 	background: url('../images/portadas/portadaform.jpg');
@@ -393,6 +525,13 @@ html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.portada-slider-paquete{
+  height:400px!important;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 .portada-principal-oscuro{
@@ -436,7 +575,7 @@ html {
 .portada-secundario h2{
 	margin: 0px;
 	font-weight: bold;
-	border-left: 7px solid #8d3133;
+	border-left: 7px solid #a72e31;
 	padding-left: 5px;
 }
 
@@ -453,7 +592,7 @@ html {
 .portada-sub h2{
 	margin: 0px;
 	font-weight: bold;
-	border-left: 7px solid #8d3133;
+	border-left: 7px solid #a72e31;
 	padding-left: 5px;
 }
 
@@ -471,7 +610,7 @@ html {
 }
 
 .bordes{
-  border-left:3px solid #8d3133;
+  border-left:3px solid #a72e31;
   padding-left: 5px;
 }
 
@@ -487,6 +626,167 @@ html {
 .tabla-corta tbody tr td {
   padding: 0px!important;
 }
+
+
+/*ESTILO DE TRANSICIÓN PARA AUMENTAR TAMAÑO DE DIV*/
+img.zoom {
+
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+.img-contenedor img {
+  -webkit-transition: all .9s ease;
+  /* Safari y Chrome */
+  -moz-transition: all .9s ease;
+  /* Firefox */
+  -o-transition: all .9s ease;
+  /* IE 9 */
+  -ms-transition: all .9s ease;
+  /* Opera */
+  width: 100%;
+}
+
+/*ESTILO TRANSICION AUMENTAR IMAGEN DE FONDO PARA REGIONES */
+.tile {
+  float: left;
+  margin: 1px;
+  width: 100%!important;
+  overflow: hidden;
+  background-size: 750px 450px;
+  background-position: center;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+#tile:hover {
+  background-size: 850px 550px;
+
+}
+
+
+/*ESTILO DE PAGE LOADER */
+
+#page-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: #a72e31 none repeat scroll 0% 0%;
+  z-index: 99999;
+}
+
+#page-loader .preloader-interior {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top-color: #ffd31f;
+  -webkit-animation: spin 2s linear infinite;
+  /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 2s linear infinite;
+  /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#page-loader .preloader-interior:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  border-top-color: #ffd31f;
+  -webkit-animation: spin 3s linear infinite;
+  /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 3s linear infinite;
+  /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#page-loader .preloader-interior:after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top-color: #ffd31f;
+  -webkit-animation: spin 1.5s linear infinite;
+  /* Chrome, Opera 15+, Safari 5+ */
+  animation: spin 1.5s linear infinite;
+  /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(0deg);
+    /* IE 9 */
+    transform: rotate(0deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    /* Chrome, Opera 15+, Safari 3.1+ */
+    -ms-transform: rotate(360deg);
+    /* IE 9 */
+    transform: rotate(360deg);
+    /* Firefox 16+, IE 10+, Opera */
+  }
+}
+
+video {
+  background-size: cover;
+  bottom: 0;
+  height: auto;
+  min-height: 100%;
+  min-width: 100%;
+  right: 0;
+  width: auto;
+}
+
 
 /*ESTILOS ESPECIFICOS fin*/
 
