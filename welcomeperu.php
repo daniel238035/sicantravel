@@ -9,7 +9,7 @@
             </div>
             <div class="portada-principal-oscuro" style="padding:20px 30px;">
                 <div class="container  height-100">
-                    <div class="row  height-100 flex-col-end" style="padding-top:100px;">
+                    <div class="row  height-100 flex-col-end hide-on-med-and-down" style="padding-top:100px;">
                         <div class="col s12 flex-row ">
                             <a href="welcomeperu.php">
                                 <h2 class="white-text text-negrita">Welcome to 
@@ -26,6 +26,24 @@
                         <div class="col s12 flex-row " style="padding-top:50px;">
                             <h5 class="white-text">Tierra de cultura y maravillas</h5>
                         </div>
+                    </div>
+
+                    <!--MODIFICADO PARA MOVIL-->
+                    <div class="row  height-100 hide-on-med-and-up" style="padding-top:50px;">
+                        <div class="col s12 flex-row ">
+                            <a href="welcomeperu.php">
+                                <h2 class="white-text text-negrita center-align">Welcome to
+                                    <span class="color-primario text-negrita">Chiclayo</span>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="col s12 flex-row ">
+                            <h5 class="white-text center-align">
+                                <i class="material-icons">terrain</i> ATRACTIVOS<br>
+                                <i class="material-icons">map</i> TOUR <br>
+                                <i class="material-icons">local_play</i> INFORMACIÓN</h5>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -165,7 +183,7 @@
                             <span class="color-terciario text-negrita">Cuidad de la Amistad</span>
                         </h2>
                     </div>
-                    <div class="col s12 l6 offset-l1" style="padding:30px 50px;">
+                    <div class="col s12 l6 offset-l1 hide-on-med-and-down" style="padding:30px 50px;">
                         <p class="parrafo-mediano white-text text-justificado">
                             Chiclayo es una de las más importantes y grandes cuidades del Perú, centro comercial, eje económico y turísticos del Norte.
                             Plataforma de entrada y salida a las principales capitales como: Trujillo, Cajamarca, Chachapoyas, Moyobamba,
@@ -181,67 +199,32 @@
             </div>
         </div>
 
-        <!--SECCION PUBLICIDAD HOTELES -->
-        <div class="white hide "  >
-            
-            <div class="row bg-primario flex-row">
-                <div class="col s10">
-                    <h5 class="white-text bg-primario padding-10"> <i class="material-icons">hotel</i> Hoteles Recomendados</h5>
-                </div>
-                <div class="col s2 flex-row">
-                    <a class="btn btn-flat white-text" type="button" id="mostrar-hotel" name="boton1"><i class="material-icons" >expand_more</i></a>
-                    <a class="btn btn-flat white-text" type="button" id="ocultar-hotel" name="boton1"><i class="material-icons" >expand_less</i></a>
-                </div>
-            </div>
-            <div class="row   white" id="publicidad-hotel">
-                <div class="col s6 l3 padding-20 ">
-                    <a href="#" >
-                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/casaandina.jpg" alt="" >
-                    </a>
-                </div>
-                <div class="col s6 l3 padding-20 portada-principal-oscuro-cambio-2 ">
-                    <a href="#">
-                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/winmeierhotellogo.jpg" alt="" >
-                    </a>        
-                </div>
-                <div class="col s6 l3 padding-20 portada-principal-oscuro-cambio-2 ">
-                    <a href="#">
-                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/costadelsol.jpg" alt="" >
-                    </a>        
-                </div>
-                <div class="col s6 l3 padding-20 portada-principal-oscuro-cambio-2 ">
-                    <a href="#">
-                        <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/sunec.png" alt="" >
-                    </a>        
-                </div>
-            </div>
-        </div>
 
         <!--SECCION PUBLICIDAD HOTELES -->
         <div class="white "  >
             
             <div class="row bg-primario flex-row">
-                <div class="col s10">
+                <div class="col l10 s9 ">
                     <h5 class="white-text bg-primario padding-10"> <i class="material-icons">hotel</i> Hoteles Recomendados</h5>
                 </div>
-                <div class="col s2 flex-row">
+                <div class="col l2  s3 flex-row">
                     <a class="btn btn-flat white-text" type="button" id="mostrar-hotel" name="boton1"><i class="material-icons" >expand_more</i></a>
                     <a class="btn btn-flat white-text" type="button" id="ocultar-hotel" name="boton1"><i class="material-icons" >expand_less</i></a>
                 </div>
             </div>
             <div class="container">
                 <div class="row   white" id="publicidad-hotel">
-                    <div class="col s6 l4 padding-10 ">
+                    <div class="col s12 l4 padding-10 ">
                         <a href="#" >
                             <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/casaandina.jpg" alt="" >
                         </a>
                     </div>
-                    <div class="col s6 l4 padding-10  ">
+                    <div class="col s12 l4 padding-10  ">
                         <a href="#">
                             <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/winmeierhotellogo.jpg" alt="" >
                         </a>        
                     </div>
-                    <div class="col s6 l4 padding-10  ">
+                    <div class="col s12 l4 padding-10  ">
                         <a href="#">
                             <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/costadelsol.jpg" alt="" >
                         </a>        
@@ -262,8 +245,8 @@
 
                 <!-- ATRACTIVOS LAMBAYEQUE -->
                 <div class="row padding-sup-inf-20" >
-                    <a href="#">
-                        <div class="col s12 l4 ">
+                    <a href="#" >
+                        <div class="col s12 l4 " style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-catedral-noche.jpg" alt="" style="height:220px; width:100%;">
@@ -290,7 +273,7 @@
                     </a>
 
                     <a href="#">
-                        <div class="col s12 l4 ">
+                        <div class="col s12 l4 " style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-municipalidad.jpg" alt="" style="height:220px; width:100%;">
@@ -317,7 +300,7 @@
                     </a>
 
                     <a href="#">
-                        <div class="col s12 l4 ">
+                        <div class="col s12 l4 " style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-convento-santamaria.jpg" alt="" style="height:220px; width:100%;">
@@ -350,7 +333,7 @@
                 <!-- ATRACTIVOS LAMBAYEQUE-->
                 <div class="row padding-sup-inf-20">
                     <a href="#">
-                        <div class="col s12 l4 ">
+                        <div class="col s12 l4 " style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-iglesia-sanpedro.jpg" alt="" style="height:220px; width:100%;">
@@ -380,7 +363,7 @@
                     </a>
                 
                     <a href="#">
-                        <div class="col s12 l4 ">
+                        <div class="col s12 l4 " style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-tumbas-reales.jpg" alt="" style="height:220px; width:100%;">
@@ -409,7 +392,7 @@
                     </a>
                 
                     <a href="#">
-                        <div class="col s12 l4 ">
+                        <div class="col s12 l4 " style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-bruning.jpg" alt="" style="height:220px; width:100%;">
@@ -459,13 +442,18 @@
             </div>
             <div class="portada-principal-oscuro" style="padding:20px 30px;">
                 <div class="row borde-total-principal height-100">
-                    <div class="col l4" style="padding:30px;">
-                        <h2 class="white-text">CHICLAYO
+                    <div class="col s12 l4" style="padding:30px;">
+                        <h2 class="white-text hide-on-med-and-down">CHICLAYO
                             <br>
                             <span class="color-terciario text-negrita">Gastronomía</span>
                         </h2>
+
+                        <!--MODIFICADO PARA MOVIL-->
+                        <h2 class="white-text hide-on-med-and-up">CHICLAYO</h2>
+                        <h4 class="white-text hide-on-med-and-up"><span class="color-terciario text-negrita">Gastronomía</span></h4>
+
                     </div>
-                    <div class="col l6 offset-l1" style="padding:30px 50px;">
+                    <div class="col s12 l6 offset-l1 hide-on-med-and-down" style="padding:30px 50px;">
                         <div class="row">
                             <p class="col s12 parrafo-mediano white-text text-justificado">
                                 La comida peruana está conciderada entre las cuatro mejores del mundo junto con la francea, italiana y china; por su inconfundible
@@ -490,31 +478,31 @@
         <div class="white">
 
             <div class="row bg-primario flex-row">
-                <div class="col s10">
+                <div class="col s9 l10">
                     <h5 class="white-text bg-primario padding-10">
                         <i class="material-icons" >local_dining</i> Restaurantes Recomendados
                     </h5>
                     
                 </div>
 
-                <div class="col s2 flex-row">
+                <div class="col s3 l2 flex-row">
                     <a class="btn btn-flat white-text" type="button" id="mostrar-restaurante" name="boton1"><i class="material-icons" >expand_more</i></a>
                     <a class="btn btn-flat white-text" type="button" id="ocultar-restaurante" name="boton1"><i class="material-icons" >expand_less</i></a>
                 </div>
             </div>
             <div class="container">
                 <div class="row " id="publicidad-restaurante">
-                    <div class="col s6 l4 padding-10">
+                    <div class="col s12 l4 padding-10">
                         <a href="#">
                             <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/hebron.png" alt="">
                         </a>
                     </div>
-                    <div class="col s6 l4 padding-10">
+                    <div class="col s12 l4 padding-10">
                         <a href="#">
                             <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/marakos.png" alt="">
                         </a>
                     </div>
-                    <div class="col s6 l4 padding-10">
+                    <div class="col s12 l4 padding-10">
                         <a href="#">
                             <img class="responsive-img white" style="height:213px; width:100%;" src="images/publicidad/pirkas.jpg" alt="">
                         </a>
@@ -531,7 +519,7 @@
                         <h2 class="black-text text-negrita"> DATOS <span class="color-primario">ÚTILES</span></h2>
                         <h5>PARA TODO VIAJERO</h5>
                     </div>
-                    <div class="col s12 l4 ">
+                    <div class="col s12 l4 " style="margin:10px 0px;">
                         <div class="row white altura-igual-4">
                             <div class="col s12 padding-0 flex-row">
                                 <i class="material-icons color-terciario" style="font-size:100px; margin:40px;">map</i>
@@ -555,7 +543,7 @@
                         </div>
                     </div>
         
-                    <div class="col s12 l4 ">
+                    <div class="col s12 l4 " style="margin:10px 0px;">
                         <div class="row white altura-igual-4">
                             <div class="col s12 padding-0 flex-row">
                                 <i class="material-icons color-terciario" style="font-size:100px; margin:40px;">hearing</i>
@@ -651,7 +639,7 @@
                         </div>
                     </div>
         
-                    <div class="col s12 l4 ">
+                    <div class="col s12 l4 " style="margin:10px 0px;">
                         <div class="row white altura-igual-4">
                             <div class="col s12 padding-0 flex-row">
                                 <i class="material-icons color-terciario" style="font-size:100px; margin:40px;">local_hotel</i>

@@ -26,7 +26,7 @@
 <body>
     <div id="page-loader"><span class="preloader-interior"></span></div>
     <header >
-        <div class="menu_sobrepuesto">
+        <div class="menu_sobrepuesto hide-on-med-and-down">
             <div class="row  flex-row">
                 <div class="col s6  ">
                     <div class="row flex-row">
@@ -68,5 +68,30 @@
             
                 </div>
             </div>
+        </div>
+
+        <div class="hide-on-med-and-up">
+             <nav>
+                <div class="nav-wrapper bg-primario">
+                <a href="#!" class="brand-logo">Sican Travel</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">more_horiz</i></a>
+                <ul class="side-nav bg-primario" id="mobile-demo">
+                    <a href="index.php">
+                                <img class="responsive-img" src="images/logo2.png" alt="">
+                            </a>
+                    <li><a class="white-text" href="">Home</a></li>
+                    <li><a class="white-text" href="">Atractivos</a></li>
+                    <li><a class="white-text" href="">Paquetes</a></li>
+                    <li><a class="white-text" href="">Quienes Somos</a></li>
+                    <li><a class="white-text" href="">Contáctanos</a></li>
+                    <li class="">
+                        <a class="white-text" href="https://www.facebook.com/sicantravel/?hc_ref=ARQpD5j204He6wi2-ps4pY2My1FHCSpdo6N2nPddP-Q9SCyXKuy5XJbwwayZY5O16SA&fref=nf" target="_black"><span class="white-text icon-facebook2"></span> Facebook</a>
+                    </li>
+                    <li>
+                        <a class="white-text" href="" target="_black"><span class="white-text icon-instagram"></span> Instagram</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
         </div>
     </header>

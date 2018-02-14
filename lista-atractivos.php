@@ -9,7 +9,7 @@
             </div>
             <div class="portada-principal-oscuro" style="padding:20px 30px;">
                 <div class="container  height-100">
-                    <div class="row  height-100 flex-col-end" style="padding-top:100px;">
+                    <div class="row  height-100 flex-col-end hide-on-med-and-down" style="padding-top:100px;">
                         <div class="col s12 flex-row ">
                             <a href="welcomeperu.php">
                                 <h2 class="white-text text-negrita">Welcome to 
@@ -27,12 +27,30 @@
                             <h5 class="white-text">Tierra de cultura y maravillas</h5>
                         </div>
                     </div>
+
+                    <!--MODIFICADO PARA MOVIL-->
+                    <div class="row  height-100 hide-on-med-and-up" style="padding-top:100px;">
+                        <div class="col s12 flex-row ">
+                            <a href="welcomeperu.php">
+                                <h2 class="white-text text-negrita center-align">Welcome to
+                                    <span class="color-primario text-negrita">Chiclayo</span>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="col s12 flex-row ">
+                            <h5 class="white-text center-align">
+                                <i class="material-icons">terrain</i> ATRACTIVOS<br>
+                                <i class="material-icons">map</i> TOUR <br>
+                                <i class="material-icons">local_play</i> INFORMACIÓN</h5>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
+
     <!--CONTENIDO-->
-    <!-- SECCION PAQUETES TURISTICO -->
     <div class="bg-fondo-oscuro">
         <div class="row">
             <ul id="tabs-swipe-demo" class="tabs">
@@ -57,7 +75,7 @@
                     <!-- ATRACTIVOS LAMBAYEQUE -->
                     <div class="row padding-sup-inf-20">
                         <a href="#">
-                            <div class="col s12 l4 ">
+                            <div class="col s12 l4 " style="margin:10px 0px;">
                                 <div class="row white ">
                                     <div class="col s12 padding-0">
                                         <img class="responsive-img" src="images/portadas/portada-catedral-noche.jpg" alt="" style="height:220px; width:100%;">
@@ -86,7 +104,7 @@
                         </a>
                 
                         <a href="#">
-                            <div class="col s12 l4 ">
+                            <div class="col s12 l4 " style="margin:10px 0px;">
                                 <div class="row white ">
                                     <div class="col s12 padding-0">
                                         <img class="responsive-img" src="images/portadas/portada-municipalidad.jpg" alt="" style="height:220px; width:100%;">
@@ -114,7 +132,7 @@
                         </a>
                 
                         <a href="#">
-                            <div class="col s12 l4 ">
+                            <div class="col s12 l4 " style="margin:10px 0px;">
                                 <div class="row white ">
                                     <div class="col s12 padding-0">
                                         <img class="responsive-img" src="images/portadas/portada-convento-santamaria.jpg" alt="" style="height:220px; width:100%;">
@@ -157,7 +175,7 @@
                     <!-- ATRACTIVOS LAMBAYEQUE-->
                     <div class="row padding-sup-inf-20">
                         <a href="#">
-                            <div class="col s12 l4 ">
+                            <div class="col s12 l4 " style="margin:10px 0px;">
                                 <div class="row white ">
                                     <div class="col s12 padding-0">
                                         <img class="responsive-img" src="images/portadas/portada-iglesia-sanpedro.jpg" alt="" style="height:220px; width:100%;">
@@ -193,7 +211,7 @@
                         </a>
                 
                         <a href="#">
-                            <div class="col s12 l4 ">
+                            <div class="col s12 l4 " style="margin:10px 0px;">
                                 <div class="row white ">
                                     <div class="col s12 padding-0">
                                         <img class="responsive-img" src="images/portadas/portada-tumbas-reales.jpg" alt="" style="height:220px; width:100%;">
@@ -227,7 +245,7 @@
                         </a>
                 
                         <a href="#">
-                            <div class="col s12 l4 ">
+                            <div class="col s12 l4 " style="margin:10px 0px;">
                                 <div class="row white ">
                                     <div class="col s12 padding-0">
                                         <img class="responsive-img" src="images/portadas/portada-bruning.jpg" alt="" style="height:220px; width:100%;">

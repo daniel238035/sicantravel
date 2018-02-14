@@ -9,7 +9,7 @@
             </div>
             <div class="portada-principal-oscuro" style="padding:20px 30px;">
                 <div class="container  height-100">
-                    <div class="row  height-100 flex-col-end" style="padding-top:100px;">
+                    <div class="row  height-100 flex-col-end hide-on-med-and-down" style="padding-top:100px;">
                         <div class="col s12 flex-row ">
                             <a href="welcomeperu.php">
                                 <h2 class="white-text text-negrita">Welcome to 
@@ -27,9 +27,28 @@
                             <h5 class="white-text">Tierra de cultura y maravillas</h5>
                         </div>
                     </div>
+
+                    <!--MODIFICADO PARA MOVIL-->
+                    <div class="row  height-100 hide-on-med-and-up" style="padding-top:5 0px;">
+                        <div class="col s12 flex-row ">
+                            <a href="welcomeperu.php">
+                                <h2 class="white-text text-negrita center-align">Welcome to
+                                    <span class="color-primario text-negrita">Chiclayo</span>
+                                </h2>
+                            </a>
+                        </div>
+                        <div class="col s12 flex-row ">
+                            <h5 class="white-text center-align">
+                                <i class="material-icons">terrain</i> ATRACTIVOS<br>
+                                <i class="material-icons">map</i> TOUR <br>
+                                <i class="material-icons">local_play</i> INFORMACIÓN</h5>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
+
     
     <!--CONTENIDO-->
     <!-- SECCION PAQUETES TURISTICO -->
