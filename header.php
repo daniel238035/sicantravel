@@ -20,7 +20,8 @@
     <!--FONTS IMPORTADOS-->
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Poppins|Reem+Kufi" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
-
+    <!--Clima-->
+    <link href="css/clima.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,14 +55,15 @@
                         <li class="">
                             <a href="nosotros.php"><h6 class="white-text">Quienes Somos</h6></a>
                         </li>
-                        <li class="">
-                            <a href="contacto.php"><h6 class="white-text">Contáctanos</h6></a>
-                        </li>
+                        
                         <li class="">
                             <a href="https://www.facebook.com/sicantravel/?hc_ref=ARQpD5j204He6wi2-ps4pY2My1FHCSpdo6N2nPddP-Q9SCyXKuy5XJbwwayZY5O16SA&fref=nf" target="_black"><span class="white-text icon-facebook2"></span></a>
                         </li>
                         <li>
                             <a href="" target="_black"><span class="white-text icon-instagram"></span></a>
+                        </li>
+                        <li class="btn btn-flat btn-secundario  pulse">
+                            <a href="contacto.php" style="font-size: 12px; color:white;">Contáctanos</a>
                         </li>
                     </ul>
             

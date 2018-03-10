@@ -539,7 +539,7 @@
                         <figcaption>
                             <h5 class="ih-fade-down ih-delay-sm ">Solterito</h5>
                             <p class="ih-zoom-in ih-delay-md">
-                                <i>Ensalada de queso fresco, habas, cebolla, aceitunas, tomate y rocoto.</i>
+                                <i style="font-size: 18px;">Ensalada de queso fresco, habas, cebolla, aceitunas, tomate y rocoto.</i>
                             </p>
                         </figcaption>
                         <a href="#"></a>
@@ -551,7 +551,7 @@
                         <figcaption class="">
                             <h5 class="ih-fade-down ih-delay-sm ">Chupe de camarones</h5>
                             <p class="ih-zoom-in ih-delay-md">
-                                <i>Sopa de camarones con leche, huevos y huacatay.</i>
+                                <i style="font-size: 18px;">Sopa de camarones con leche, huevos y huacatay.</i>
                             </p>
                         </figcaption>
                         <a href="#"></a>
@@ -563,7 +563,7 @@
                         <figcaption>
                             <h5 class="ih-fade-down ih-delay-sm ">Rocoto relleno</h5>
                             <p class="ih-zoom-in ih-delay-md">
-                                <i>Rocoto desvenado relleno de carne picada con queso, leche y acompañado de pastel de papas.s</i>
+                                <i style="font-size: 18px;">Rocoto desvenado relleno de carne picada con queso, leche y acompañado de pastel de papas.s</i>
                             </p>
                         </figcaption>
                         <a href="#"></a>

@@ -246,7 +246,7 @@
                 <!-- ATRACTIVOS LAMBAYEQUE -->
                 <div class="row padding-sup-inf-20" >
                     <a href="#" >
-                        <div class="col s12 l4 " style="margin:10px 0px;">
+                        <div class="col s12 l4 block" style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-catedral-noche.jpg" alt="" style="height:220px; width:100%;">
@@ -273,7 +273,7 @@
                     </a>
 
                     <a href="#">
-                        <div class="col s12 l4 " style="margin:10px 0px;">
+                        <div class="col s12 l4 block" style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-municipalidad.jpg" alt="" style="height:220px; width:100%;">
@@ -300,7 +300,7 @@
                     </a>
 
                     <a href="#">
-                        <div class="col s12 l4 " style="margin:10px 0px;">
+                        <div class="col s12 l4 block" style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-convento-santamaria.jpg" alt="" style="height:220px; width:100%;">
@@ -333,7 +333,7 @@
                 <!-- ATRACTIVOS LAMBAYEQUE-->
                 <div class="row padding-sup-inf-20">
                     <a href="#">
-                        <div class="col s12 l4 " style="margin:10px 0px;">
+                        <div class="col s12 l4 block" style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-iglesia-sanpedro.jpg" alt="" style="height:220px; width:100%;">
@@ -363,7 +363,7 @@
                     </a>
                 
                     <a href="#">
-                        <div class="col s12 l4 " style="margin:10px 0px;">
+                        <div class="col s12 l4 block" style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-tumbas-reales.jpg" alt="" style="height:220px; width:100%;">
@@ -392,7 +392,7 @@
                     </a>
                 
                     <a href="#">
-                        <div class="col s12 l4 " style="margin:10px 0px;">
+                        <div class="col s12 l4 block" style="margin:10px 0px;">
                             <div class="row white ">
                                 <div class="col s12 padding-0">
                                     <img class="responsive-img" src="images/portadas/portada-bruning.jpg" alt="" style="height:220px; width:100%;">

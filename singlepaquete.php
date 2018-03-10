@@ -92,7 +92,7 @@
                         </div>
                         <div class="col s12 l3">
                             <div class="row flex-row padding-10">
-                                <a href="#itinerario" class="col s12 btn-flat flex-row white-text text-negrita"> Ver Itinerario</a>
+                                <a href="#itinerario" class="col s12 btn-flat flex-row white-text text-negrita borde-blanco" > Descargar Itinerario</a>
                             </div>
                         </div>
                     </div>
